@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>TelaDeCadastro</title>
+</head>
+<body>
+    <div class="main_reg">
+        <div class="left_reg">
+            <h1>Crie sua conta<br>E entre para nosso time!</h1>
+            <img src="./imagens/planeta.svg" class="left_img" alt="animação">
+        </div>
+        <div class="right_reg">
+            <div class="card">
+                <h1>REGISTRAR</h1>
+                <div class="textfield">
+                    <label for="email">Digite seu E-mail</label>
+                    <input type="email" required name="email" placeholder="E-mail"> 
+                </div>
+                <div class="textfield">
+                    <label for="senha">Digite sua Senha</label>
+                    <input type="password" required id="senha" name="senha" placeholder="Senha">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Confirme sua Senha</label>
+                    <input type="password" required id="confirmar" name="confirmar" placeholder="Senha">
+                </div>
+                <div class="mensagem">
+                    <p id="mensagem"></p>
+                </div>
+                <button class="btn_reg" onclick="registrar()">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
